@@ -2,8 +2,8 @@ name: RSS Feishu Bot
 
 on:
   schedule:
-    # 每小时运行一次（UTC 时间）
-    - cron: "*/10 * * * *"
+    # 每30min运行一次（UTC 时间）
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
